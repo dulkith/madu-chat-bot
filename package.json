@@ -1,0 +1,22 @@
+{
+  "name": "madu-messenger-bot",
+  "version": "1.0.0",
+  "description": "chanaka madugoda facebook messenger bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "messenger",
+    "webhook"
+  ],
+  "author": "Dulkith Bataduwa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc0",
+    "request": "^2.83.0"
+  }
+}
